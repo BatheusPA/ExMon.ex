@@ -1,6 +1,13 @@
 # ExMon
 
-**TODO: Add description**
+**Projeto desenvolvido em Elixir que consiste em um jogo de turnos onde o jogador enfrenta o computador, vence quem zerar os pontos de vida do oponente primeiro.**
+
+Lista de comandos:
+Criar um jogador: player = ExMon.create_player("nome_do_jogador", :movimento_de_ataque1 , :movimento_de_ataque2, :movimento_de_cura)
+
+começar o jogo: ExMon.start_game(player)
+
+fazer um movimento: ExMon.make_move(:nome_do_movimento)
 
 ## Installation
 
